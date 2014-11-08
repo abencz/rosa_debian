@@ -17,6 +17,6 @@
 1. Build package
 
         $ cd ../
-        $ debuild -S -sa
+        $ dpkg-buildpackage -S
 
 1. (optional) Release to Launchpad using [`dput`](https://help.launchpad.net/Packaging/PPA/Uploading)
