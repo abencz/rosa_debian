@@ -1,0 +1,12 @@
+Source: rosa
+Maintainer: Alex Bencz <abencz@clearpathrobotics.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-rosa
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-git, python-wstool, python-rosinstall, python-rosdep
+Description: Helper script for ROS
+ Commands for quickly performing common operations in ROS <http://ros.org>.
